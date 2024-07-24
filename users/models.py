@@ -4,4 +4,4 @@ from django.db import models
 
 
 class CustomUser(User):
-    ...
+    phone = models.CharField(max_length=20, unique=True)
