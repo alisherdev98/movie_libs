@@ -4,7 +4,6 @@ from users.models import CustomUser
 from .movie_common_info import MovieCommonInfo
 from .movie import Movie
 from ..enums import MovieRecordAction
-from ..utils import get_lazy_movie_action_choices
 
 
 class MovieHistory(MovieCommonInfo):
