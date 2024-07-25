@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     #third-party libs
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_filters',
 
     #apps
     'users',
